@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23B81" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="categoryImageName" optional="YES" attributeType="String"/>
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoreDataTask" representedClassName="CoreDataTask" syncable="YES" codeGenerationType="class">
+        <attribute name="taskCategoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="taskCategoryName" optional="YES" attributeType="String"/>
+        <attribute name="taskCompleted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="taskDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskName" optional="YES" attributeType="String"/>
+        <attribute name="taskNote" optional="YES" attributeType="String"/>
+        <attribute name="taskPriority" optional="YES" attributeType="String"/>
+    </entity>
+</model>
